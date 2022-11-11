@@ -18,7 +18,7 @@
         </geometry>
         <material>
           <script>
-            <uri>model://landing_pad/materials/scripts/repeated.material</uri>
+            <uri>model://landing_pad_model/materials/scripts/repeated.material</uri>
             <name>RepeatedTexture</name>
           </script>
         </material>
