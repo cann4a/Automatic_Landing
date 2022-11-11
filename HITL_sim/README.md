@@ -27,6 +27,9 @@ The hardware we used is:
 In order to replicate the HITL simulation one should follow these steps:
   1. If not done already, connect the *Pixhawk4 mini* to the PC via USB;
   2. Connect the **PIN 4** (TX) and **PIN 5** (RX) (see the below image for referece) of the OpenMV cam to the telem port with a proper adapter to the **TELEM** port of the pixhawk4 mini.
+ 
+ <img src="Imgs/camera_pinout.png" alt="drawing" width="500"/>
+  
   3. Make sure *QGroundControl* is not running! Build the PX4 firmware with *Gazebo* 
   ```Shell
     $ cd <path-to>/PX4-Autopilot
@@ -40,9 +43,9 @@ In order to replicate the HITL simulation one should follow these steps:
   ```Shell
     $ gazebo Tools/simulation/gazebo/sitl_gazebo/worlds/hitl_iris.world
   ``` 
-  If the terminal displays the message "Serial port closed" it means that there is a problem in the connection with the pixhawk4 mini. Thus close the terminal, disconnect and reconnect the flight controller and retry. It may be also possible that the port of the flight controller is not set correctly. To ensure that that's not the case open the vehicle model file (**Tools/simulation/gazebo/sitl_gazebo/models/iris_hitl/iris_hitl.sdf**) and replace the *SerialDevice* parameter with */dev/ttyACM0* if necessary;
+If the terminal displays the message "Serial port closed" it means that there is a problem in the connection with the pixhawk4 mini. Thus close the terminal, disconnect and reconnect the flight controller and retry. It may be also possible that the port of the flight controller is not set correctly. To ensure that that's not the case open the vehicle model file (**Tools/simulation/gazebo/sitl_gazebo/models/iris_hitl/iris_hitl.sdf**) and replace the *SerialDevice* parameter with */dev/ttyACM0* if necessary;
 
   6. Once Gazebo is stared, connect the OpenMV camera to the PC via USB being careful to don't connect to the OpenMV IDE. This connection is just for supply the voltage to the camera to make it work and the UART bus must be free. Once the camrea is supplied with power, the main.py program is executed and so the algorithm. 
   
-<img src="Imgs/camera_pinout.png" alt="drawing" width="500"/>
+
   
