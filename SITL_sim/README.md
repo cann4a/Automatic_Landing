@@ -43,3 +43,5 @@ is willing to better monitor the drone status, QGroundControl should be opened o
 
 **NOTICE**: We experienced some problems having the video stream both working in QGroundControl and in the python script, that led to unexpected crashes.
             So, if you experience problems with the video stream, try to keep QGroundControl close while executing the main script. 
+            
+For more information reference to the [Gazebo Simulation](https://docs.px4.io/main/en/simulation/gazebo.html) page.
