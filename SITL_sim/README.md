@@ -22,7 +22,7 @@ into the appropriate folders:
   $ cp landing_pad_model <path-to>/PX4-Autopilot/Tools/sitl_gazebo/models 
   $ cp typhoon_h480.world <path-to>/PX4-Autopilot/Tools/sitl_gazebo/worlds
   ```
-**NOTICE**: once the file *typhoon_h480.world* is copied into the /worlds folder it will replace the old file. So, if one is interested
+**NOTICE**: once the file *typhoon_h480.world* is copied into the ~/worlds folder it will replace the old file. So, if one is interested
 in preserving the original file, should do a backup of it. 
 
 ## Simulation 
