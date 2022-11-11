@@ -35,7 +35,7 @@ Once gazebo opened up, one can should notice the **VIDEO** button of the top lef
 Ensure that the button is as shown in the figure below, otherwise just click on it to make it turn GREEN. In this way the video stream
 is enabled on the UDP port 5600 and can be seen both from QgroundControl or processed with the *BlueRov* class in the *SITL_simulation.py* file.
 
-<img src="sitl_video_stream.png" alt="drawing" width="400"/>
+<img src="Imgs/sitl_video_stream.png" alt="drawing" width="400"/>
 
 After starting the simulation, one can execute the *SITL_simulation.py* script and start the algorithm routine. 
 Note that having QGroundControl opened is not mandatory, since all the required procedures are included in the python script. Nonetheless, if one
