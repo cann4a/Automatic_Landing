@@ -1,9 +1,14 @@
 # Automatic Landing
-This repository is meant to contain all the files that pertain to the Automatic Landing project of the Embedded Systems course 
+This repository is meant to contain all the files that pertain to the Automatic Landing project of the Embedded Systems course.
 
 ## Content
 This repository contains the following folders:
-  - **SITL_sim**: Contains the python program and the files necessary to replicate the SITL simulation
-  - **HITL_sim**: Contains  
-  - C
+  - **SITL_sim**: Contains the python program, the files and the instructions necessary to replicate the SITL simulation
+  - **HITL_sim**: Contains the main python file run by the OpenMV cam, the NN file for the inference, as well as all the instruction for the
+  replication of the HITL simulation
+  
+## Real world application
+For what concerns the running of our algorithm on a real drone, we used the same flight controller (i.e. *pixhawk4 mini*) as for the HITL simulation.
+For this reason, all the settings specified in the README.md file in the **HITL_sim** folder can be considered valid also for the application
+on the real drone. 
  
