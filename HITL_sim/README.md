@@ -2,6 +2,11 @@
 
 The Hardware in the loop (**HITL**) simulation is aimed at testing the communication between the OpenMV Camera H7P and the pixhawk flight controller.  
 
+## Content
+This folder contains the following files:
+  - *main.py*: the main script that runs on the OpenMV camera;
+  - *landing_quant.tflite*: NN file for the inference onthe camera.
+
 ## OpenMV Camera setup
   1. Insert a uSD card into the proper slot of the OpenMV cam. The uSD is needed to host the neural network, since it's around 6 MB this would slow the running too much if used on the native FLASH memory;
   2. Load the *main.py* and the *landing_quant.tflite* files into the uSD. The camera is treated as a normal USB drive, so it's sufficient to drag and drop them into the drive folder. 
