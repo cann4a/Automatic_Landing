@@ -51,3 +51,28 @@ In order to replicate the HITL simulation one should follow these steps:
 If the terminal displays the message <code>Serial port closed</code> it means that there is a problem in the connection with the pixhawk4 mini. Thus close the terminal, disconnect and reconnect the flight controller and retry. It may be also possible that the port of the flight controller is not set correctly. To ensure that that's not the case open the vehicle model file (i.e. **Tools/simulation/gazebo/sitl_gazebo/models/iris_hitl/iris_hitl.sdf**) and replace the <code>SerialDevice</code> parameter with <code>/dev/ttyACM0</code> if necessary;
 
   6. Once Gazebo is stared, connect the OpenMV camera to the PC via USB being careful to don't connect to the OpenMV IDE. This connection is just for supply the voltage to the camera to make it work and the UART bus must be free. Once the camrea is supplied with power, the main.py program is executed and so the algorithm.   
+## QGroundControl Parameters
+These are the parameters to set in QGroundControl in order to setup the communication:
+
+  - SER_TEL_1_BAUD = 115200 8N1
+  - COM_RC_OVERRIDE = 3
+  - COM_RCL_EXCEPT = 0 / 4 (set it to 0 if you are using a real drone, otherwise set it on 4 for HITL and SITL mode)
+  - MAV_0_CONFIG = TELEM_1
+  
+  These are the parameters for setup the drone navigation:
+  - MPC_LAND_SPEED = 1.0 m/s
+  - MPC_MANTHR_MIN = 0
+  - MPC_THR_MIN = 5 %
+  - MPC_TILTMAX_AIR = 20.0 deg
+  - MPC_TKO_SPEED = 1.20 m/s
+  - MPC_VEL_MANUAL = 2.0 m/s
+  - MPC_XY_CRUISE = 2.0 m/s
+  - MPC_XY_VEL_ALL = 2.0
+  - MPC_XY_VEL_MAX = 2.0 m/s
+  - MPC_Z_VEL_ALL = 2.0
+  - MPC_Z_VEL_I_ACC = 1.7 m/s
+  - MPC_Z_VEL_MAX_DN = 1.5 m/s
+  - MPC_Z_VEL_MAX_UP = 2.0 m/s
+  - MPC_Z_V_AUTO_DN = 1.5 m/s
+  - MPC_Z_V_AUTO_UP = 2.0 m/s
+  
