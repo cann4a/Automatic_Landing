@@ -10,6 +10,7 @@ This folder contains the following files/folders:
   - **SITL_simulation.py**: this is the main code to be executed on the PC for the simulation to run;
   - **typhoon_h480.world**: this is the world file that is loaded once the simulation is started;
   - **landing_pad_model**: this folder contains all the files required to generate the landing pad model inseide the simulation.
+  - **[Landing_pad_20e.h5](https://drive.google.com/file/d/1HYRLGRyrJmvJ_8anNcrnzdWhpaon77W8/view?usp=share_link)**: Neural network model
 
 ## Files usage
 
