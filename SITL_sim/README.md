@@ -46,3 +46,6 @@ is willing to better monitor the drone status, QGroundControl should be opened o
             So, if you experience problems with the video stream, try to keep QGroundControl close while executing the main script. 
             
 For more information reference to the [Gazebo Simulation](https://docs.px4.io/main/en/simulation/gazebo.html) page.
+
+
+Here is a [video demo](https://drive.google.com/file/d/1HWIv9237ETELDySGyXjSBP9FiSHnN8wl/view?usp=share_link) of the SITL simulation
