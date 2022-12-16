@@ -48,4 +48,4 @@ is willing to better monitor the drone status, QGroundControl should be opened o
 For more information reference to the [Gazebo Simulation](https://docs.px4.io/main/en/simulation/gazebo.html) page.
 
 
-Here is a [video demo](https://drive.google.com/file/d/1HWIv9237ETELDySGyXjSBP9FiSHnN8wl/view?usp=share_link) of the SITL simulation
+Here is a [video demo](https://drive.google.com/file/d/1PFtXjpznalNOO0vRh_u-CTsBomkxzuKW/view?usp=share_linkk) of the SITL simulation
