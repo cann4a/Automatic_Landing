@@ -1,7 +1,7 @@
 # Automatic Landing
 This repository is meant to contain all the files that pertain to the Automatic Landing project of the Embedded Systems course.
 
-For more information refer to the [paper](https://drive.google.com/file/d/1WZyPUPL3xIIiyYRWbztlGQf7wmub933o/view?usp=share_link)
+For more information refer to the [paper](https://drive.google.com/file/d/1_MovJC1XQjSny-GNP0b29cDgtOUPbPsE/view?usp=share_link)
 
 ## Content
 This repository contains the following folders:
