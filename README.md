@@ -21,7 +21,7 @@ The software used was:
   - Gazebo simulator
   - PX4 autopilot
   
-  All sofware versions and the python packages list are listed in the file "software_version".
+  All sofware versions and the python packages list are listed in the file <code>software_version</code>.
 
 ## Real world application
 For what concerns the running of our algorithm on a real drone, we used the same flight controller (i.e. *pixhawk4 mini*) as for the HITL simulation.
