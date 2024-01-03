@@ -1,5 +1,11 @@
 # Automatic Landing
-This repository is meant to contain all the files that pertain to the Automatic Landing project of the Embedded Systems course.
+The aim of this work was to develop an automatic landing infrastructure suited for the OpenMV Camera H7 Plus microcontroller.  
+The final objective of this project was to obtain a totally independent application that runs on the OpenMV Camera without any assistance from external libraries for the drone control part.  
+The final application was tested both in a simulation using a SITL (software in the loop) and a HITL (hardware in the loop) framework. For the latter, a real flight controller was used in view of 
+a final real-world application. A real-world testing was finally performed.  
+
+This repository contains all the material used for building the automatic landing infrastracture. 
+
 
 For more information refer to the [paper](https://drive.google.com/file/d/1qEq37-8m7lBh5_CL3vyxKU9pqA7KdrMg/view?usp=share_link)
 
